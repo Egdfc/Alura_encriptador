@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de texto</title>
+    
+    
+</head>
+
+    <body>
+
+        <header>
+            <div class="LogoAlura">
+                <img src="imagenes/Logo.png" alt="Logo Alura">
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="section1">
+
+                <textarea id="entradadetexto" class="MSJEntrada" placeholder="  Ingrese el texto aqui."></textarea>
+            
+                <div class="imgExclamacion">
+                     <img src="imagenes/bi_exclamation-circle-fill.png" alt="logoexclamacion">
+                    ¡Solo letras minusculas y sin asentos!
+                </div>
+
+
+                <div class="boxbotones">
+                     <input type="button" class="ButtonEncriptar" value="Encriptar">
+                     <input type="button" class="ButtonDesencriptar" value="Desencriptar">
+                </div>
+
+            
+            </section>
+
+            <section class="section2">
+
+               
+
+                <div id ="mensajeoculto" class="mensajesalida">
+                    <div>
+                        <textarea id="finalmsj" class="boxmensajesalida"></textarea>
+                    </div>
+                   
+                    <div id="btncopy"> 
+                        <input type="button" class="ButtonCopy" value="Copiar" >
+                    </div>
+                </div>
+               
+                
+
+                <div id="ocultarcosas">
+                    
+                    <div class="boxMunheco">
+                        <img src="imagenes/Muñeco.png" alt="Muñeco con lupa">
+                    </div>
+    
+                    <div class="instrucciones">
+                    
+                        <div class="boxh3">
+                            <h3>Ningun mensaje fue encontrado</h3>
+                        </div>
+                    </div>
+    
+                    <div class="boxInstrucciones">
+                            <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                    
+                </div>
+                
+
+            </section>
+
+
+       
+        </main>
+
+            <footer>
+
+                <div class="rodapie">
+                    <p>Desarrollado por Emanuel Flores Cuellar</p>
+                    <p>Alura derechos reservados</p>
+                    
+                </div>
+
+            </footer>
+        <script src="encriptar.js"></script>
+    </body>
+
+
+</html>
